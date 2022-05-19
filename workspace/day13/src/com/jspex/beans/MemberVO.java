@@ -9,10 +9,7 @@ public class MemberVO {
 	private String name;
 	private String birthday;
 	
-	public MemberVO() {
-		this.name = "이름이 없습니다.";
-		this.birthday = "생일이 등록되지 않았습니다.";
-	}
+	public MemberVO() {;}
 
 	public int getNum() {
 		return num;
